@@ -3,5 +3,5 @@
 Образ на Docker Hub: [aboldyrev/php](https://hub.docker.com/r/aboldyrev/php)
 
 Алиасы для терминала
- - php71 — ``alias php71="docker exec -it php7.1 php"``
- - composer71 — ``alias composer71="docker exec -it php7.1 composer"``
+ - php71 — ``alias php71="docker run -it aboldyrev/php:7.1-fpm php"``
+ - composer71 — ``alias composer71="docker run -it aboldyrev/php:7.1-fpm composer"``
